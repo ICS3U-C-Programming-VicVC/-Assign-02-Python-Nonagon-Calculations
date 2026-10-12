@@ -8,6 +8,11 @@ import constants
 
 
 def main():
+    # Introducing th user to this program.
+    print(
+        "Welcome to nonagon_calculations.py! This program will calculate the area and perimeter of a Nonagon!"
+    )
+    print("Please follow the step(s) below!")
 
     # Get a side length  from the user in cm.
     side_length = float(input("Please enter a side length of the nonagon in cm: "))
